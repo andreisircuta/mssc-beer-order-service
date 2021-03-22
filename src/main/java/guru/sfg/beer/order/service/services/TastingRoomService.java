@@ -62,7 +62,7 @@ public class TastingRoomService {
 
         BeerOrderDto beerOrder = BeerOrderDto.builder()
                 .customerId(customer.getId())
-                .customerRef(UUID.randomUUID().toString())
+//                .customerRef(UUID.randomUUID().toString())
                 .beerOrderLines(beerOrderLineSet)
                 .build();
 

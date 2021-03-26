@@ -17,7 +17,8 @@
 
 package guru.sfg.beer.order.service.domain;
 
-public enum  OrderStatusEnum {
+public enum BeerOrderStatusEnum {
     NEW, VALIDATED, VALIDATION_EXCEPTION, ALLOCATED, ALLOCATION_EXCEPTION, PENDING_INVENTORY, PICKED_UP, DELIVERED,
-    DELIVERY_EXCEPTION
+    DELIVERY_EXCEPTION,
+    READY //temp - we introduce a bug if we remove it
 }
